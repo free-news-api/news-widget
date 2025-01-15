@@ -14,6 +14,9 @@ A customizable embeddable JavaScript widget to display news articles about speci
 
 The widget automatically handles layout, with article images displayed on the left, and article titles, publication dates, and snippets displayed on the right. It’s a great tool for adding dynamic content to websites, blogs, or dashboards.
 
+### Example Screenshot of a Widget about "Mergers and Acquisitions" 
+<img src="https://github.com/free-news-api/news-widget/blob/main/widget_example.png?raw=true"   />
+
 ## How It Works
 
 The widget fetches news articles from the Webz.io News API Lite and dynamically displays them on your website. Each article includes:
