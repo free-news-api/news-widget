@@ -10,7 +10,7 @@ A customizable embeddable JavaScript widget to display news articles about speci
   - Toggle the display of article images and text snippets independently.
 
 - **Flexible Usage:**
-  - Specify the news query and your API token to fetch relevant articles.
+  - Specify the news query and your API token to fetch relevant articles. I suggest using either the [category or topic filters](https://docs.webz.io/reference/filters) as it's an easy way to define a theme. For example the query `category:sport` will return news about sports and the query `topic:layoffs` will return news articles around layoffs.  
 
 The widget automatically handles layout, with article images displayed on the left, and article titles, publication dates, and snippets displayed on the right. It’s a great tool for adding dynamic content to websites, blogs, or dashboards.
 
