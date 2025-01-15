@@ -8,10 +8,9 @@ A customizable embeddable JavaScript widget to display news articles about speci
   - Modify link colors, text colors, fonts, widget size, background color, and border color.
 - **Display Options:**
   - Toggle the display of article images and text snippets independently.
-- **Powered by Webz.io News API:**
-  - Includes a small credit link to Webz.io News API Lite.
+
 - **Flexible Usage:**
-  - Specify the news topic and your API token to fetch relevant articles.
+  - Specify the news query and your API token to fetch relevant articles.
 
 The widget automatically handles layout, with article images displayed on the left, and article titles, publication dates, and snippets displayed on the right. It’s a great tool for adding dynamic content to websites, blogs, or dashboards.
 
@@ -30,6 +29,11 @@ The layout is designed with images on the left and text on the right.
 1. Clone the repository or download the source code:
    ```bash
    git clone https://github.com/yourusername/news-widget-webzio.git
+2. Include the JavaScript file in your website or project.
+3. Configure the widget options (e.g., API token, query, styles).
+
+## Usage
+Here’s a basic example of how to use the widget:
 
 ```html
 <!DOCTYPE html>
@@ -44,7 +48,7 @@ The layout is designed with images on the left and text on the right.
   <script>
     createNewsWidget({
       token: "YOUR_WEBZ_IO_TOKEN",
-      topic: "mergers and acquisitions",
+      query: 'topic:"mergers and acquisitions"',
       container: "#myNewsWidget",
       showImage: true,
       showText: true,
@@ -67,7 +71,7 @@ The layout is designed with images on the left and text on the right.
 | Option      | Type    | Default | Description                                                  |
 |-------------|---------|---------|--------------------------------------------------------------|
 | `token`     | string  | -       | Your Webz.io News API Lite token.                            |
-| `topic`     | string  | -       | The topic for fetching news.                                 |
+| `query`     | string  | -       | The query for fetching news.                                 |
 | `container` | string  | -       | A DOM selector or element where the widget will be injected. |
 | `showImage` | boolean | `true`  | Whether to display the article images.                      |
 | `showText`  | boolean | `true`  | Whether to display the article text snippet.                |
