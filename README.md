@@ -1,6 +1,6 @@
 # News Widget using Webz.io News API Lite
 
-A customizable embeddable JavaScript widget to display news articles about specific topics using the Webz.io News API Lite.
+A customizable embeddable JavaScript widget to display news articles about specific topics using the Webz.io [News API Lite](https://webz.io/products/news-api#lite). 
 
 ## Features
 
@@ -19,7 +19,7 @@ The widget automatically handles layout, with article images displayed on the le
 
 ## How It Works
 
-The widget fetches news articles from the Webz.io News API Lite and dynamically displays them on your website. Each article includes:
+The widget fetches news articles from the Webz.io [News API Lite](https://webz.io/products/news-api#lite) and dynamically displays them on your website. Each article includes:
 - A hyperlink with the title (linked to the article)
 - The publication date
 - (Optional) An image of the article
@@ -73,8 +73,8 @@ Here’s a basic example of how to use the widget:
 
 | Option      | Type    | Default | Description                                                  |
 |-------------|---------|---------|--------------------------------------------------------------|
-| `token`     | string  | -       | Your Webz.io News API Lite token.                            |
-| `query`     | string  | -       | The query for fetching news.                                 |
+| `token`     | string  | -       | Your FREE Webz.io [News API Lite](https://webz.io/products/news-api#lite) token.                            |
+| `query`     | string  | -       | The query for fetching news. I suggest using either [category or topic filters](https://docs.webz.io/reference/filters) as it's an easy way to define a topic                                |
 | `container` | string  | -       | A DOM selector or element where the widget will be injected. |
 | `showImage` | boolean | `true`  | Whether to display the article images.                      |
 | `showText`  | boolean | `true`  | Whether to display the article text snippet.                |
